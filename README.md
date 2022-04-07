@@ -21,3 +21,4 @@
 | [Прогнозирование заказов такси](forecasting_taxi_orders) | Построение модели, предсказывающей количество заказов такси на следующий час| *Pandas*, *NumPy*, *scikit-learn*, *MatPlotLib*, *Statsmodels*, *Light GBM*, *IPython* |
 | [Определение тональности комментариев](sentiment_classification_of_comments) | Создание модели, которая будет классифицировать комментарии на позитивные и негативные| *Pandas*, *NumPy*, *scikit-learn*, *MatPlotLib*, *re*, *Spacy*, *NLTK*, *IPython* |
 | [Определение возраста покупателей](determining_the_age_of_buyers) | Построение модели, которая по фотографии определит приблизительный возраст человека| *Pandas*, *NumPy*, *MatPlotLib*, *TensorFlow (Keras)*, *IPython* |
+| [Предсказание температуры сплава](alloy_temperature_prediction) | Построение модели, которая предскажет температуру стали для металлургического комбината| *Pandas*, *NumPy*, *MatPlotLib*, *Seaborn*, *statsmodel*, *scikir-learn*, *Light GBM*, *IPython* |
