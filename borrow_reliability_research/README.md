@@ -1,13 +1,18 @@
-# Исследование надёжности заёмщиков
-Нам необходимо разобраться, влияет ли семейное положение и количество детей клиента на факт погашения кредита в срок. Входные данные от заказчика — статистика о платёжеспособности клиентов. Результаты исследования будут учтены при построении модели кредитного скоринга — специальной системы, которая оценивает способность потенциального заёмщика вернуть кредит банку.  
+# Borrow reliability research
+Many people take out loans. But how many of them return the money on time? Can we help the bank determine whether the borrower will repay the money on time, based on data such as the client's marital status and number of children? 
 
-Основными этапами нашего проекта станут:  
-* Открытие файла с данными и изучение общей информации
-* Предобработка данных
-* Расчеты и добавление необходимых для анализа результатов
-* Анализ данных
-* Проверка гипотез
-* Формулирование основных выводов
+Let's do some research!
 
-Проект выполнен в **Jupyter Notebook**, версия **Python** 3.7.8.  
-В проекте использованы библиотеки **Pandas**, **PyMyStem3**, а также модуль **IPython**.
+Input data from the customer - statistics on the solvency of customers. 
+The results of the study will be taken into account when building a credit scoring model - a special system that assesses the ability of a potential borrower to return a loan to a bank.
+
+The main stages of our project will be:
+* Opening a data file and examining general information
+* Data preprocessing
+* Calculations and adding the results necessary for analysis
+* Data analysis
+* Hypothesis testing
+* Formulation of main conclusions
+
+The project is made in **Jupyter Notebook**, version **Python** 3.7.8.
+The project uses the **Pandas**, **PyMyStem3** libraries, as well as the **IPython** module.
