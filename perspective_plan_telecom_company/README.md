@@ -1,29 +1,32 @@
 # Determination of a prospective plan for a telecom company
 
-What do you think about when you imagine the country's mobile communications market? I would venture to guess that there are several telecommunications companies competing for customers. However, when companies have already divided the market among themselves, it may make more sense to put efforts into retaining customers rather than attracting new ones.
+Let's imagine that you are in charge of the commercial department of a telecom company. You need to decide which of the two cell phone plans to advertise more. Simply put, which of the two plans is better? What if we only have data for 500 customers?
 
-Нашей задачей является предварительный анализ тарифов сотовой связи телеком-компании на небольшой выборке клиентов. В нашем распоряжении данные 500 пользователей: кто они, откуда, каким тарифом пользуются, сколько звонков и сообщений каждый отправил за 2018 год. Нужно проанализировать поведение клиентов и сделать вывод — какой тариф лучше. На основании этого вывода коллеги из коммерческого департамента компании скорректируют рекламный бюджет.  
-Основными этапами нашего проекта станут:  
-* Изучение предоставленных данных
-* Предобработка данных
-* Расчеты и добавление необходимых для анализа результатов
-* Анализ данных
-* Проверка гипотез
-* Формулирование основных выводов
+No problem. Just give the data to your fellow analyst. And that analyst is me :)
 
-Проект выполнен в Jupyter Notebook, версия сервера блокнотов: 6.1.4. Версия Python 3.7.8.  
-В проекте использованы библиотеки Pandas, MatPlotLib, NumPy, Math, SciPy, а также модуль IPython. 
+So, our task is to carry out a preliminary analysis of the cell phone plans of a telecom company on a small sample of customers. We have the data of 500 users: who they are, where they are from, what plan they use, how many calls and messages each sent in 2018. It is necessary to analyze the behavior of customers and draw a conclusion - which plan is better. Based on this conclusion, colleagues from the commercial department of the company will adjust the advertising budget.  
+
+The main steps of our project will be:
+* Examining the provided data
+* Data preprocessing
+* Calculations and adding the results necessary for analysis
+* Data analysis
+* Hypothesis testing
+* Formulation of main conclusions
+
+The project is made in Jupyter Notebook, notebook server version: 6.1.4., Python 3.7.8.
+The project used the Pandas, MatPlotLib, NumPy, Math, SciPy libraries, as well as the IPython module.
 
 
-# Описание тарифов
+# Plan description
 
-**Тариф «Смарт»**
+**"Smart" plan**
 
-1. Ежемесячная плата: 550 рублей
-2. Включено 500 минут разговора, 50 сообщений и 15 Гб интернет-трафика
-3. Стоимость услуг сверх тарифного пакета: 1. минута разговора: 3 рубля (Телеком-компания всегда округляет вверх значения минут и мегабайтов. Если пользователь проговорил всего 1 секунду, в тарифе засчитывается целая минута); 2. сообщение: 3 рубля; 3. 1 Гб интернет-трафика: 200 рублей.
+1. Monthly fee: 550 rubles
+2. Included 500 minutes of calls, 50 messages and 15 GB of Internet traffic
+3. The cost of services in excess of the tariff package: 1. minute of conversation: 3 rubles (Telecom company always rounds up the values of minutes and megabytes. If the user spoke only 1 second, a whole minute is counted in the tariff); 2. message: 3 rubles; 3. 1 GB of Internet traffic: 200 rubles.
 
-**Тариф «Ультра»**
-1. Ежемесячная плата: 1950 рублей
-2. Включено 3000 минут разговора, 1000 сообщений и 30 Гб интернет-трафика
-3. Стоимость услуг сверх тарифного пакета: 1. минута разговора: 1 рубль; 2. сообщение: 1 рубль; 3. 1 Гб интернет-трафика: 150 рублей.
+**"Ultra" plan**
+1. Monthly fee: 1950 rubles
+2. Included 3000 minutes of calls, 1000 messages and 30 GB of internet traffic
+3. The cost of services in excess of the tariff package: 1. minute of conversation: 1 ruble; 2. message: 1 ruble; 3. 1 GB of Internet traffic: 150 rubles.
