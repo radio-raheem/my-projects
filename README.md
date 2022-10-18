@@ -4,7 +4,7 @@ Hi all! My name is Pavel Sukhikh. I'm a data scientist and this repository conta
 
 ## Project descriptions
 
-| Название проекта | Описание | Используемые библиотеки | 
+| Project name | Description | Libraries and frameworks used | 
 | :---------------------- | :---------------------- | :---------------------- |
 | [Исследование надёжности заёмщиков](borrow_reliability_research) | Определение влияния семейного положения и количества детей клиента банка на факт погашения кредита в срок| *Pandas*, *PyMyStem3*, *IPython* |
 | [Исследование объявлений о продаже квартир](appartment_sales_ads_research) | Определение рыночной стоимости объектов недвижимости и установка параметров, позволяющих построить автоматизированную систему, которая отследит аномалии и мошенническую деятельность| *Pandas*, *MatPlotLib*, *IPython* |
