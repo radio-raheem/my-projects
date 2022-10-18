@@ -1,4 +1,9 @@
 # Рекомендация тарифов
+
+
+What do you think about when you imagine the country's mobile communications market? I would venture to guess that there are several telecommunications companies competing for customers. However, when companies have already divided the market among themselves, it may make more sense to put efforts into retaining customers rather than attracting new ones.
+
+
 Оператор мобильной связи выяснил: многие клиенты пользуются архивными тарифами. Он хочет построить систему, способную проанализировать поведение клиентов и предложить пользователям новый тариф: «Смарт» или «Ультра».
 
 В нашем распоряжении данные о поведении клиентов, которые уже перешли на эти тарифы. Нужно построить модель для задачи классификации, которая выберет подходящий тариф.
