@@ -8,7 +8,7 @@ Feel free to check them out!
 | Project name | Description | Libraries and frameworks used | 
 | :---------------------- | :---------------------- | :---------------------- |
 | [Borrow reliability research](borrow_reliability_research) | Determination of the influence of marital status and the number of children of a bank client on loan repayment on time| *Pandas*, *PyMyStem3*, *IPython* |
-| [Apartment sales ads research](appartment_sales_ads_research) | Determining the market value of real estate and setting parameters that allow you to build an automated system that will track anomalies and fraudulent activity| *Pandas*, *MatPlotLib*, *IPython* |
+| [Apartment sales ads research](apartment_sales_ads_research) | Determining the market value of real estate and setting parameters that allow you to build an automated system that will track anomalies and fraudulent activity| *Pandas*, *MatPlotLib*, *IPython* |
 | [Determination of a prospective plan for a telecom company](perspective_plan_telecom_company) | Analysis of cellular communication plans of a telecom company on a small sample of customers. Analysis of the behavior of telecom company customers, on the basis of which the best plan will be determined| *Pandas*, *MatPlotLib*, *NumPy*, *SciPy*, *IPython* |
 | [Planning an advertising campaign for an online game store](advertising_campaign_planning) | Identification of patterns that determine the success of the game| *Pandas*, *MatPlotLib*, *NumPy*, *Math*, *SciPy*, *IPython* |
 | [Plan recommendation](plan_recommendation) | Building a model for a mobile operator that can analyze customer behavior and offer users a new plan| *Pandas*, *NumPy*, *scikit-learn*, *IPython* |
