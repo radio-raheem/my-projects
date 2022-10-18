@@ -14,5 +14,5 @@ The main stages of our project will be:
 * Hypothesis testing
 * Formulation of main conclusions
 
-The project is made in **Jupyter Notebook**, version **Python** 3.7.8.
-The project uses the **Pandas**, **PyMyStem3** libraries, as well as the **IPython** module.
+The project is made in **Jupyter Notebook**, **Python** 3.7.8.
+The project uses the **Pandas** library, as well as the **IPython** module and **PyMyStem3** module.
