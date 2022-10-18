@@ -6,8 +6,8 @@ Hi all! My name is Pavel Sukhikh. I'm a data scientist and this repository conta
 
 | Project name | Description | Libraries and frameworks used | 
 | :---------------------- | :---------------------- | :---------------------- |
-| [Borrow reliability research](borrow_reliability_research) | Determination of the influence of marital status and the number of children of a bank client on the fact of loan repayment on time| *Pandas*, *PyMyStem3*, *IPython* |
-| [Исследование объявлений о продаже квартир](appartment_sales_ads_research) | Определение рыночной стоимости объектов недвижимости и установка параметров, позволяющих построить автоматизированную систему, которая отследит аномалии и мошенническую деятельность| *Pandas*, *MatPlotLib*, *IPython* |
+| [Borrow reliability research](borrow_reliability_research) | Determination of the influence of marital status and the number of children of a bank client on loan repayment on time| *Pandas*, *PyMyStem3*, *IPython* |
+| [Apartment sales ads research](apartment_sales_ads_research) | Определение рыночной стоимости объектов недвижимости и установка параметров, позволяющих построить автоматизированную систему, которая отследит аномалии и мошенническую деятельность| *Pandas*, *MatPlotLib*, *IPython* |
 | [Определение перспективного тарифа для телеком-компании](perspective_plan_telecom_company) | Анализ тарифов сотовой связи телеком-компании на небольшой выборке клиентов. Анализ поведения клиентов телеком-компании, на основании которого будет определен лучший тариф| *Pandas*, *MatPlotLib*, *NumPy*, *SciPy*, *IPython* |
 | [Планирование рекламной компании интернет-магазина игр](advertising_campaign_planning) | Выявление определяющих успешность игры закономерностей. Определение принципа работы с данными| *Pandas*, *MatPlotLib*, *NumPy*, *Math*, *SciPy*, *IPython* |
 | [Рекомендация тарифов](plan_recommendation) | Построение для мобильного оператора модели, способной проанализировать поведение клиентов и предложить пользователям новый тариф| *Pandas*, *NumPy*, *scikit-learn*, *IPython* |
