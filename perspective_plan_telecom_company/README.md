@@ -1,4 +1,6 @@
-# Определение перспективного тарифа для телеком-компании
+# Determination of a prospective plan for a telecom company
+
+What do you think about when you imagine the country's mobile communications market? I would venture to guess that there are several telecommunications companies competing for customers. However, when companies have already divided the market among themselves, it may make more sense to put efforts into retaining customers rather than attracting new ones.
 
 Нашей задачей является предварительный анализ тарифов сотовой связи телеком-компании на небольшой выборке клиентов. В нашем распоряжении данные 500 пользователей: кто они, откуда, каким тарифом пользуются, сколько звонков и сообщений каждый отправил за 2018 год. Нужно проанализировать поведение клиентов и сделать вывод — какой тариф лучше. На основании этого вывода коллеги из коммерческого департамента компании скорректируют рекламный бюджет.  
 Основными этапами нашего проекта станут:  
