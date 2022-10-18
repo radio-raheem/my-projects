@@ -6,7 +6,7 @@ Let's do some research!
 Input data from the customer - statistics on the solvency of customers. 
 The results of the study will be taken into account when building a credit scoring model - a special system that assesses the ability of a potential borrower to return a loan to a bank.
 
-The main stages of our project will be:
+The main steps of our project will be:
 * Opening a data file and examining general information
 * Data preprocessing
 * Calculations and adding the results necessary for analysis
