@@ -1,7 +1,7 @@
 # radio-raheem-projects
 
 Hi all! My name is Pavel Sukhikh. I'm a data scientist and this repository contains my projects.  
-Feel free to check them!
+Feel free to check them out!
 
 ## Project descriptions
 
