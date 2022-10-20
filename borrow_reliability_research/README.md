@@ -1,5 +1,6 @@
 # Borrow reliability research
-Many people take out loans. But how many of them return the money on time? Can we help the bank determine whether the borrower will repay the money on time, based on data such as the client's marital status and number of children? 
+Many people take out loans. But how many of them return the money on time?  
+Can we help the bank determine whether the borrower will repay the money on time, based on data such as the client's marital status and number of children? 
 
 Let's do some research!
 
