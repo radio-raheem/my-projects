@@ -7,6 +7,23 @@ Let's do some research!
 Input data from the customer - statistics on the solvency of customers. 
 The results of the study will be taken into account when building a credit scoring model - a special system that assesses the ability of a potential borrower to return a loan to a bank.
 
+Let's describe the data.
+
+children — number of children in the family
+days_employed — total work expirience in days
+dob_years — client's age in years
+education — client's education level
+education_id — educational level identifier
+family_status — marital status
+family_status_id — marital status identifier
+gender — client gender
+income_type — type of employment
+debt — whether they were in debt to repay loans or not
+total_income — monthly income
+purpose — purpose of the loan
+
+
+
 The main steps of our project will be:
 * Opening a data file and examining general information
 * Data preprocessing
