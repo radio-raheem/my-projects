@@ -18,7 +18,7 @@ The project is made in Jupyter Notebook, notebook server version: 6.1.4., Python
 The project used the Pandas, MatPlotLib, NumPy, Math, SciPy libraries, as well as the IPython module.
 
 
-# Plan description
+# Plans description
 
 **"Smart" plan**
 
