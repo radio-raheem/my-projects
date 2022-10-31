@@ -13,7 +13,7 @@ Key steps:
 * Hypothesis testing
 * General conclusion
 
-** Jupiter Notebook**, **Python** version 3.7.8.
+**Jupiter Notebook**, **Python** version 3.7.8.
 The project uses the following libraries:
 * **Pandas**
 * **MatPlotLib**
