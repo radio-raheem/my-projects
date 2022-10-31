@@ -1,8 +1,10 @@
-# Планирование рекламной компании интернет-магазина игр
-Наш заказчик — интернет-магазин, который продаёт по всему миру компьютерные игры. Из открытых источников доступны исторические данные о продажах игр, оценки пользователей и экспертов, жанры и платформы (например, Xbox или PlayStation). Вам нужно выявить определяющие успешность игры закономерности. Это позволит сделать ставку на потенциально популярный продукт и спланировать рекламные кампании.
-Мы имеем данные до 2016 года. Представим, что сейчас декабрь 2016 г., и мы планируем кампанию на 2017-й. Нужно отработать принцип работы с данными. Неважно, прогнозируем ли мы продажи на 2017 год по данным 2016-го или же 2027-й — по данным 2026 года.
-В наборе данных попадается аббревиатура ESRB (Entertainment Software Rating Board) — это ассоциация, определяющая возрастной рейтинг компьютерных игр. ESRB оценивает игровой контент и присваивает ему подходящую возрастную категорию, например, «Для взрослых», «Для детей младшего возраста» или «Для подростков».
-  
+# Planning an advertising campaign for an online game store
+
+Our customer is an online store that sells computer games all over the world. Historical data on game sales, user and expert ratings, genres and platforms (for example, Xbox or PlayStation) are available from open sources. We need to identify patterns that determine the success of the game. This will allow us to put our stake on potentially popular product and plan advertising campaigns.  
+We have data up to 2016. Let's imagine that it's December 2016, and we are planning a campaign for 2017. We need to work out the principle of working with data. It doesn't matter whether we forecast sales for 2017 according to 2016 data or 2027 according to 2026 data.
+The data set contains the abbreviation ESRB (Entertainment Software Rating Board), an association that determines the age rating of computer games. ESRB evaluates game content and assigns it a suitable age category, for example, "For adults", "For younger children" or "For teenagers".  
+
+
 Основными этапами нашего проекта станут:  
 * Изучение предоставленных данных
 * Предобработка данных. Расчеты и добавление необходимых для анализа результатов
