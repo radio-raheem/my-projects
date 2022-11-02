@@ -1,49 +1,49 @@
-# Отток клиентов
+# Clients churn
 
-Из банка стали уходить клиенты. Каждый месяц. Немного, но заметно. Банковские маркетологи посчитали: сохранять текущих клиентов дешевле, чем привлекать новых.
+Clients started leaving the bank. Every month. A little, but noticeable. Banking marketers figured it was cheaper to keep current customers than to attract new ones.
 
-Нужно спрогнозировать, уйдёт клиент из банка в ближайшее время или нет. Мы располагаем историческими данными о поведении клиентов и расторжении договоров с банком. 
+It is necessary to predict whether the client will leave the bank in the near future or not. We have historical data on customer behavior and termination of agreements with the bank.
 
-Наша задача — построить модель со значеним *F1*-меры не менее 0,59.
+Our task is to build a model with *F1*-measure value of at least 0.59.
 
-Источник данных: [https://www.kaggle.com/barelydedicated/bank-customer-churn-modeling](https://www.kaggle.com/barelydedicated/bank-customer-churn-modeling)
+Data source: [https://www.kaggle.com/barelydedicated/bank-customer-churn-modeling](https://www.kaggle.com/barelydedicated/bank-customer-churn-modeling)
 
-Основными этапами нашего проекта станут:  
-* Подготовка данных
-* Исследование задачи. Обучение разных моделей без учета дисбаланса
-* Борьба с дисбалансом. Обучение разных моделей с учетом дисбаланса
-* Тестирование модели
-* Проверка модели на вменяемость
-* Исследование метрики AUC-ROC
+Our key steps:
+* Data preparation
+* Research task. Training different models without taking into account imbalance
+* Fight imbalance. Training Different Models Given Imbalance
+* Model testing
+* Checking the model for sanity
+* Checking AUC-ROC metric
 
-**Описание данных**  
+**Data description**  
 
-**Признаки**
+**Features*
 
-*RowNumber* — индекс строки в данных  
-*CustomerId* — уникальный идентификатор клиента  
-*Surname* — фамилия  
-*CreditScore* — кредитный рейтинг  
-*Geography* — страна проживания  
-*Gender* — пол  
-*Age* — возраст  
-*Tenure* — сколько лет человек является клиентом банка  
-*Balance* — баланс на счёте  
-*NumOfProducts* — количество продуктов банка, используемых клиентом  
-*HasCrCard* — наличие кредитной карты  
-*IsActiveMember* — активность клиента  
-*EstimatedSalary* — предполагаемая зарплата
+*RowNumber* — row index in the data
+*CustomerId* — unique customer ID
+*Surname* - surname
+*CreditScore* - credit score
+*Geography* - country of residence
+*Gender* - gender
+*Age* — age
+*Tenure* - how many years a person has been a client of the bank
+*Balance* — account balance
+*NumOfProducts* - the number of bank products used by the client
+*HasCrCard* - the presence of a credit card
+*IsActiveMember* — client activity
+*EstimatedSalary* — estimated salary
 
-**Целевой признак** 
+**Target feature** 
 
-**Exited** — факт ухода клиента
+**Exited** — the fact that the client has left
 
 
-Проект выполнен в **Jupyter Notebook**, версия сервера блокнотов: 6.1.4. Версия **Python** 3.7.8.  
+The project is made in **Jupyter Notebook**, Notebook server version: 6.1.4. Version **Python** 3.7.8.
   
-В проекте использованы библиотеки:
+Libraries used in the project:
 * **Pandas**
 * **NumPy**
 * **MatPlotLib**
-* **scikit-learn** 
-* **IPython** 
+* **scikit-learn**
+* **IPython**
