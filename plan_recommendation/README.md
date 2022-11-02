@@ -1,34 +1,32 @@
-# Рекомендация тарифов
-
+# Plan recommendation
 
 What do you think about when you imagine the country's mobile communications market? I would venture to guess that there are several telecommunications companies competing for customers. However, when companies have already divided the market among themselves, it may make more sense to put efforts into retaining customers rather than attracting new ones.
 
+The mobile operator found out: many customers use archival tariffs. He wants to build a system that can analyze customer behavior and offer users a new plan: "Smart" or "Ultra".
 
-Оператор мобильной связи выяснил: многие клиенты пользуются архивными тарифами. Он хочет построить систему, способную проанализировать поведение клиентов и предложить пользователям новый тариф: «Смарт» или «Ультра».
+We have data on the behavior of customers who have already switched to these plans. You need to build a model for the classification problem that will select the appropriate rate.
 
-В нашем распоряжении данные о поведении клиентов, которые уже перешли на эти тарифы. Нужно построить модель для задачи классификации, которая выберет подходящий тариф.
+Our task is to build a model with an **accuracy** value of at least 0.75.
 
-Наша задача — построить модель со значением **accuracy** не менее 0,75.
+The main stages of our project will be:
+* Data exploration
+* Dividing data into samples
+* Research the quality of different models
+* Checking the quality of the model on a test sample
+* Checking the model for sanity
 
-Основными этапами нашего проекта станут:  
-* Изучение данных
-* Разделение данных на выборки
-* Исследование качества разных моделей
-* Проверка качества модели на тестовой выборке
-* Проверка модели на вменяемость
+**Data Description**
 
-**Описание данных**  
-
-Каждый объект в наборе данных — это информация о поведении одного пользователя за месяц. Известно:  
-**сalls** — количество звонков,  
-**minutes** — суммарная длительность звонков в минутах,  
-**messages** — количество sms-сообщений,  
-**mb_used** — израсходованный интернет-трафик в Мб,  
-**is_ultra** — каким тарифом пользовался в течение месяца («Ультра» — 1, «Смарт» — 0).
+Each object in the data set is information about the behavior of one user per month. Known:
+**calls** — number of calls,
+**minutes** — total duration of calls in minutes,
+**messages** — number of sms messages,
+**mb_used** - Internet traffic used in Mb,
+**is_ultra** - what tariff did you use during the month ("Ultra" - 1, "Smart" - 0).
 
 
-Проект выполнен в **Jupyter Notebook**, версия сервера блокнотов: 6.1.4. Версия **Python** 3.7.8.  
-В проекте использованы библиотеки: 
+The project is made in **Jupyter Notebook**, Notebook server version: 6.1.4. Version **Python** 3.7.8.
+Libraries used in the project:
 * **Pandas**
 * **NumPy**
 * **Math**
