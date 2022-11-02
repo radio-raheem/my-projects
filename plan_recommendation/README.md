@@ -4,20 +4,20 @@ What do you think about when you imagine the country's mobile communications mar
 
 The mobile operator found out: many customers use archival tariffs. He wants to build a system that can analyze customer behavior and offer users a new plan: "Smart" or "Ultra".
 
-We have data on the behavior of customers who have already switched to these plans. You need to build a model for the classification problem that will select the appropriate rate.
+We have data on the behavior of customers who have already switched to these plans. You need to build a model for the classification problem that will select the appropriate plan.
 
 Our task is to build a model with an **accuracy** value of at least 0.75.
 
-The main stages of our project will be:
+The key steps are:
 * Data exploration
-* Dividing data into samples
+* Splitting the data into samples
 * Research the quality of different models
-* Checking the quality of the model on a test sample
-* Checking the model for sanity
+* Testing the quality of the model on a test sample
+* Sanity checking the model
 
 **Data Description**
 
-Each object in the data set is information about the behavior of one user per month. Known:
+Each object in the dataset is information about the behavior of one user per month. Known:
 **calls** — number of calls,
 **minutes** — total duration of calls in minutes,
 **messages** — number of sms messages,
