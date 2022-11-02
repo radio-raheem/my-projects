@@ -11,7 +11,7 @@ Our task is to build a model with an **accuracy** value of at least 0.75.
 The key steps are:
 * Data exploration
 * Splitting the data into samples
-* Research the quality of different models
+* Testing the quality of different models
 * Testing the quality of the model on a test sample
 * Sanity checking the model
 
