@@ -18,11 +18,11 @@ The key steps are:
 **Data Description**
 
 Each object in the dataset is information about the behavior of one user per month. Known:  
-**calls** — number of calls,  
-**minutes** — total duration of calls in minutes,  
-**messages** — number of sms messages,  
-**mb_used** - Internet traffic used in Mb,  
-**is_ultra** - what plan did you use during the month ("Ultra" - 1, "Smart" - 0).
+* **calls** — number of calls,  
+* **minutes** — total duration of calls in minutes,  
+* **messages** — number of sms messages,  
+* **mb_used** - Internet traffic used in Mb,  
+* **is_ultra** - what plan did you use during the month ("Ultra" - 1, "Smart" - 0).
 
 
 The project is made in **Jupyter Notebook**, Notebook server version: 6.1.4. Version **Python** 3.7.8.
