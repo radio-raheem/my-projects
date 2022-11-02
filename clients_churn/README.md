@@ -20,19 +20,19 @@ Our key steps:
 
 **Features**
 
-*RowNumber* — row index in the data 
-*CustomerId* — unique customer ID 
-*Surname* - surname 
-*CreditScore* - credit score 
-*Geography* - country of residence 
-*Gender* - gender 
-*Age* — age 
-*Tenure* - how many years a person has been a client of the bank 
-*Balance* — account balance 
-*NumOfProducts* - the number of bank products used by the client 
-*HasCrCard* - the presence of a credit card 
-*IsActiveMember* — client activity 
-*EstimatedSalary* — estimated salary
+* *RowNumber* — row index in the data 
+* *CustomerId* — unique customer ID 
+* *Surname* - surname 
+* *CreditScore* - credit score 
+* *Geography* - country of residence 
+* *Gender* - gender 
+* *Age* — age 
+* *Tenure* - how many years a person has been a client of the bank 
+* *Balance* — account balance 
+* *NumOfProducts* - the number of bank products used by the client 
+* *HasCrCard* - the presence of a credit card 
+* *IsActiveMember* — client activity 
+* *EstimatedSalary* — estimated salary
 
 **Target feature** 
 
