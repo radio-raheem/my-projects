@@ -18,7 +18,7 @@ Our key steps:
 
 **Data description**  
 
-**Features*
+**Features**
 
 *RowNumber* — row index in the data
 *CustomerId* — unique customer ID
