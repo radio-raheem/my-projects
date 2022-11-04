@@ -4,7 +4,7 @@ Clients started leaving the bank. Every month. A little, but noticeable. Banking
 
 It is necessary to predict whether the client will leave the bank in the near future or not. We have historical data on customer behavior and termination of agreements with the bank.
 
-Our task is to build a model with *F1*-measure value of at least 0.59.
+Our task is to build a model with *F1*-score value of at least 0.59.
 
 Data source: [https://www.kaggle.com/barelydedicated/bank-customer-churn-modeling](https://www.kaggle.com/barelydedicated/bank-customer-churn-modeling)
 
