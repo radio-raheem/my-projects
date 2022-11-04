@@ -1,19 +1,19 @@
-# Защита персональных данных клиентов  
+# Protection of personal data of clients 
   
-Нам нужно защитить данные клиентов страховой компании. Разработаем такой метод преобразования данных, чтобы по ним было сложно восстановить персональную информацию.
+We need to protect the data of the insurance company's customers. We will develop a data conversion method that makes it difficult to recover personal information from it.
 
-Нужно защитить данные, чтобы при преобразовании качество моделей машинного обучения не ухудшилось. Подбирать наилучшую модель не требуется.  
+You need to protect the data so that the quality of the machine learning models does not deteriorate during the transformation. There is no need to select the best model.
   
-Основными этапами нашего проекта станут:
+The key steps of our project will be:
 
-* Загрузка и подготовка данных
-* Умножение матриц
-* Предложение алгоритма преобразования данных для решения задачи
-* Программирование алгоритма, применяя матричные операции
-* Проверка качества линейной регрессии. Изучение метрики R2
+* Loading and preparing data
+* Matrix multiplication
+* Suggestion of data transformation algorithm for solving the problem
+* Algorithm programming by applying matrix operations
+* Linear regression quality check. Studying the R2 score
   
-Проект выполнен в **Jupyter Notebook**, версия сервера блокнотов: 6.1.4. Версия **Python** 3.7.8.
-В проекте использованы библиотеки 
+The project is made in **Jupyter Notebook**, Notebook server version: 6.1.4. Version **Python** 3.7.8.
+Libraries used in the project
 * **Pandas**
 * **NumPy**
 * **scikit-learn**
