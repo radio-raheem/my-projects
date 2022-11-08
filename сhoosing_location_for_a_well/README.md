@@ -1,37 +1,37 @@
 # Choosing location for a well
   
-Вы работаете в нефтедобывающей компании. Нужно решить, где бурить новую скважину.  
+Ok, so we work for an oil company. We need to decide where to drill a new well.
 
-Вам предоставлены пробы нефти в трёх регионах: в каждом 10 000 месторождений, где измерили качество нефти и объём её запасов. Постройте модель машинного обучения, которая поможет определить регион, где добыча принесёт наибольшую прибыль.
-Шаги для выбора локации:
+We have been provided with oil samples in three regions: in each of 10,000 fields, where the quality of oil and the volume of its reserves have been measured.  
+Our task is to build a machine learning model to help determine the region where mining will bring the most profit.
   
-Основными этапами нашего проекта станут:
+The key steps of our project will be:
 
-* Загрузка и подготовка данных
-* Обучение и проверка модели
-* Подготовка к расчёту прибыли
-* Расчёт прибыли и рисков. Выбор региона для разработки месторождений
+* Loading and preparing data
+* Training and validation of the model
+* Preparation for profit calculation
+* Calculation of profit and risks. Selecting a region for field development
 
-**Описание данных**
+**Data Description**
 
-*Признаки*  
+*Features*
   
-*id* — уникальный идентификатор скважины  
-*f0, f1, f2* — три признака точек (нам неизвестно, что они означают, но сами признаки значимы)  
+*id* — unique well identifier
+*f0, f1, f2* - three signs of points (we don't know what they mean, but the signs themselves are significant)
   
-*Целевой признак*  
+*Target feature*
   
-**product** — объём запасов в скважине (тыс. баррелей)  
+**product** — volume of reserves in the well (thousand barrels)
   
-Условия задачи:
-Для обучения модели подходит только линейная регрессия (остальные — недостаточно предсказуемые).  
-При разведке региона исследуют 500 точек, из которых с помощью машинного обучения выбирают 200 лучших для разработки.  
-Бюджет на разработку скважин в регионе — 10 млрд рублей.  
-При нынешних ценах один баррель сырья приносит 450 рублей дохода. Доход с каждой единицы продукта составляет 450 тыс. рублей, поскольку объём указан в тысячах баррелей.  
-После оценки рисков нужно оставить лишь те регионы, в которых вероятность убытков меньше 2.5%. Среди них выбирают регион с наибольшей средней прибылью.
+Conditions of the problem:
+Only linear regression is suitable for training the model (the rest are not predictable enough).
+During the exploration of the region, 500 points are explored, from which, using machine learning, the best 200 are selected for development.
+The budget for the development of wells in the region is 10 billion rubles.
+At current prices, one barrel of raw materials brings 450 rubles of income. The income from each unit of the product is 450 thousand rubles, since the volume is indicated in thousands of barrels.
+After assessing the risks, we need to leave only those regions in which the probability of losses is less than 2.5%. Among them, choose the region with the highest average profit.
   
-Проект выполнен в **Jupyter Notebook**, версия сервера блокнотов: 6.1.4. Версия **Python** 3.7.8.
-В проекте использованы библиотеки:
+The project is made in **Jupyter Notebook**, Notebook server version: 6.1.4. Version **Python** 3.7.8.
+Libraries used in the project:
 * **Pandas**
 * **NumPy**
 * **SciPy**
