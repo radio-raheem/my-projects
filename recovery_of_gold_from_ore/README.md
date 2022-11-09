@@ -1,26 +1,26 @@
-# Восстановление золота из руды  
+# Recovery of gold from ore
   
-Подготовьте прототип модели машинного обучения для компании, разрабатывающей решения для эффективной работы промышленных предприятий.
+Prototype a machine learning model for a company that develops industrial efficiency solutions.
 
-Модель должна предсказать коэффициент восстановления золота из золотосодержащей руды. В нашем распоряжении есть данные с параметрами добычи и очистки. 
+The model should predict the recovery rate of gold from gold ore. We have data with extraction and purification parameters.
 
-Модель поможет оптимизировать производство, чтобы не запускать предприятие с убыточными характеристиками.
+The model will help optimize production so as not to launch an enterprise with unprofitable characteristics.
 
-Основными этапами нашего проекта станут:
+The key steps of our project will be:
 
-* Загрузка и подготовка данных
-* Проверка расчета эффективности обогащения
-* Анализ признаков, недоступных в тестовой выборке
-* Предобработка данных
-* Анализ концентраций разных металлов на различных этапах очистки
-* Сравнение распределения размеров гранул сырья на обучающей и тестовой выборках
-* Исследование суммарной концентрации всех веществ на разных стадиях
-* Создание функции для вычисления итоговой sMAPE
-* Обучение разных моделей и оценка их качества кросс-валидацией. Выбор лучшей модели.
+* Loading and preparing data
+* Verification of enrichment efficiency calculation
+* Analysis of features not available in the test sample
+* Data preprocessing
+* Analysis of the concentrations of different metals at various stages of purification
+* Comparison of the size distribution of raw material granules on the training and test samples
+* Study of the total concentration of all substances at different stages
+* Create a function to calculate the final sMAPE
+* Training different models and assessing their quality by cross-validation. Choice of the best model.
   
-Проект выполнен в **Jupyter Notebook**, версия сервера блокнотов: 6.1.4. Версия **Python** 3.7.8.
-В проекте использованы библиотеки 
-* **Pandas** 
+The project is made in **Jupyter Notebook**, Notebook server version: 6.1.4. Version **Python** 3.7.8.
+Libraries used in the project
+* **Pandas**
 * **NumPy**
 * **scikit-learn**
 * **IPython**
