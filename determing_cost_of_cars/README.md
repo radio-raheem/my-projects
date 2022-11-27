@@ -1,29 +1,29 @@
-# Определение стоимости автомобилей  
+# Determing the price of cars
   
-Сервис по продаже автомобилей с пробегом разрабатывает приложение для привлечения новых клиентов.  
-В нём можно быстро узнать рыночную стоимость своего автомобиля.  
-В нашем распоряжении исторические данные: технические характеристики, комплектации и цены автомобилей. Нам нужно построить модель для определения стоимости. 
+A used car service is developing an app to attract new customers.
+In it, you can quickly find out the market price of your car.
+We have historical data: technical specifications, configurations and prices of cars. We need to build a model to determine the value.
 
-Заказчику важны:
+Important for the customer:
 
-- качество предсказания;
-- скорость предсказания;
-- время обучения.  
+- quality of prediction;
+- prediction speed;
+- studying time.
  
  
-Основными этапами нашего проекта станут:
+The key steps of our project will be:
 
-* Загрузка и подготовка данных
-* Обучение разных моделей. Регулировка гиперпараметров
-* Анализ скорости работы моделей и их качества
+* Loading and preparing data
+* Training different models. Hyperparameter adjustment
+* Analysis of the speed of the models and their quality
   
-Проект выполнен в **Jupyter Notebook**, версия сервера блокнотов: 6.1.4. Версия **Python** 3.7.8.
-В проекте использованы библиотеки: 
+The project is made in **Jupyter Notebook**, Notebook server version: 6.1.4. Version **Python** 3.7.8.
+Libraries used in the project:
 * **Pandas**
 * **NumPy**
 * **scikit-learn**
 * **MatPlotLib**
-* **Seaborn**
+* **Seaborne**
 * **Light GBM**
 * **IPython**
 * **re**
