@@ -1,24 +1,24 @@
-#  Прогнозирование заказов такси  
+# Forecasting taxi orders
   
-Сервис такси собрал исторические данные о заказах такси в аэропортах.  
-Чтобы привлекать больше водителей в период пиковой нагрузки, нужно спрогнозировать количество заказов такси на следующий час.  
-Нам нужно построить модель для такого предсказания.
+The taxi service has collected historical data on taxi orders at airports.
+To attract more drivers during the peak period, you need to predict the number of taxi orders for the next hour.
+We need to build a model for such a prediction.
 
-Значение метрики *RMSE* на тестовой выборке должно быть не больше 48.
+The value of the *RMSE* metric on the test set should not exceed 48.
 
-Нам нужно:
+We need:
 
-1. Загрузить данные и выполнить их ресемплирование по одному часу.
-2. Проанализировать данные.
-3. Обучить разные модели с различными гиперпараметрами. Сделать тестовую выборку размером 10% от исходных данных.
-4. Проверить данные на тестовой выборке и сделать выводы.
+1. Load the data and resample it one hour at a time.
+2. Analyze the data.
+3. Train different models with different hyperparameters. Make a test set of 10% of the original data.
+4. Check the data on the test set and draw conclusions.
 
 
-Данные лежат в файле `taxi.csv`.  
-Количество заказов находится в столбце `num_orders` (от англ. *number of orders*, «число заказов»).  
+The data is in the `taxi.csv` file.
+The number of orders is in the `num_orders` column.
 
-Проект выполнен в **Jupyter Notebook**, версия сервера блокнотов: 6.1.4. Версия **Python** 3.7.8.
-В проекте использованы библиотеки: 
+The project is made in **Jupyter Notebook**, Notebook server version: 6.1.4. Version **Python** 3.7.8.
+Libraries used in the project:
 * **Pandas**
 * **NumPy**
 * **statsmodels**
