@@ -1,26 +1,25 @@
-# Определение тональности комментариев  
+# Sentiment classification of comments
   
-Интернет-магазин запускает новый сервис. Теперь пользователи могут редактировать и дополнять описания товаров, как в вики-сообществах. 
-То есть клиенты предлагают свои правки и комментируют изменения других. 
-Магазину нужен инструмент, который будет искать токсичные комментарии и отправлять их на модерацию. 
+The online store launches a new service. Now users can edit and supplement product descriptions, just like in wiki communities.
+That is, clients propose their edits and comment on the changes of others.
+The store needs a tool that will look for toxic comments and submit them for moderation.
 
-Нам нужно создать модель, которая будет классифицировать комментарии на позитивные и негативные. В вашем распоряжении набор данных с разметкой о токсичности правок.
+We need to create a model that will classify comments as positive and negative. Here is a dataset with markup on the toxicity of edits.
 
-Цель: построить модель со значением метрики качества *F1* не меньше 0.75. 
+Purpose: to build a model with the value of the quality metric *F1* not less than 0.75.
 
+The main stages of our project will be:
 
-Основными этапами нашего проекта станут:
-
-* Загрузка и подготовка данных
-* Обучение разных моделей
-* Оценка метрики качества F1 моделей
-* Выбор лучшей модели, её тестирование, проверка модели на вменяемость 
+* Loading and preparing data
+* Training different models
+* Evaluation of the quality metrics of F1 models
+* Choosing the best model, testing it, checking the model for sanity
   
-Проект выполнен в **Jupyter Notebook**, версия сервера блокнотов: 6.1.4. Версия **Python** 3.7.8.
-В проекте использованы:
+The project is made in **Jupyter Notebook**, Notebook server version: 6.1.4. Version **Python** 3.7.8.
+The project used:
 * **re**
 * **Pandas**
-* **NumPy** 
+* **NumPy**
 * **scikit-learn**
 * **MatPlotLib**
 * **Spacy**
