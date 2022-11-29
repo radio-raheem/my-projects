@@ -1,22 +1,22 @@
-# Определение возраста покупателей  
+# Determing the age of byers
   
-Сетевой супермаркет внедряет систему компьютерного зрения для обработки фотографий покупателей.  
-Фотофиксация в прикассовой зоне поможет определять возраст клиентов, чтобы:
-* Анализировать покупки и предлагать товары, которые могут заинтересовать покупателей этой возрастной группы;
-* Контролировать добросовестность кассиров при продаже алкоголя.  
+A chain supermarket introduces a computer vision system to process customer photos.
+Photo fixation in the checkout area will help determine the age of customers in order to:
+* Analyze purchases and offer products that may be of interest to buyers of this age group;
+* Control the conscientiousness of cashiers when selling alcohol.
   
-Нам нужно построить модель, которая по фотографии определит приблизительный возраст человека. В нашем распоряжении набор фотографий людей с указанием возраста.  
+We need to build a model that will determine the approximate age of a person from a photograph. We have at our disposal a set of photographs of people with age indications.
   
-Основными этапами нашего проекта станут:
+The key steps of our project will be:
 
-* Исследовательский анализ набора фотографий
-* Подготовка данных к обучению
-* Обучение нейронных сетей. Определение качества модели
+* Exploratory analysis of a set of photographs
+* Preparing data for training
+* Training of neural networks. Determining the quality of a model
   
-Проект выполнен в **Jupyter Notebook**, версия сервера блокнотов: 6.1.4. Версия **Python** 3.7.8.
-В проекте использованы библиотеки: 
+The project is made in **Jupyter Notebook**, Notebook server version: 6.1.4. Version **Python** 3.7.8.
+Libraries used in the project:
 * **Pandas**
 * **NumPy**
 * **MatPlotLib**
-* **TensorFlow** **(Keras)**
+* **TensorFlow** (**Keras**)
 * **IPython**
