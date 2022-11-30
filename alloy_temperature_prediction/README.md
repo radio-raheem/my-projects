@@ -1,47 +1,47 @@
-# Предсказание температуры сплава  
-Чтобы оптимизировать производственные расходы, металлургический комбинат решил уменьшить потребление электроэнергии на этапе обработки стали. Нам нужно построить модель, которая предскажет температуру стали.  
+# Alloy temperature prediction
+In order to optimize production costs, the smelter decided to reduce electricity consumption during the steel processing stage. We need to build a model that will predict the steel temperature.
 
-## Описание производственного процесса
-Сталь обрабатывают в металлическом ковше вместимостью около 100 тонн. Чтобы ковш выдерживал высокие температуры, изнутри его облицовывают огнеупорным кирпичом. Расплавленную сталь заливают в ковш и подогревают до нужной температуры графитовыми электродами. Они установлены в крышке ковша.
-Из сплава выводится сера (десульфурация), добавлением примесей корректируется химический состав и отбираются пробы. Сталь легируют — изменяют её состав — подавая куски сплава из бункера для сыпучих материалов или проволоку через специальный трайб-аппарат (англ. tribe, «масса»).
-Перед тем как первый раз ввести легирующие добавки, измеряют температуру стали и производят её химический анализ. Потом температуру на несколько минут повышают, добавляют легирующие материалы и продувают сплав инертным газом. Затем его перемешивают и снова проводят измерения. Такой цикл повторяется до достижения целевого химического состава и оптимальной температуры плавки.
-Тогда расплавленная сталь отправляется на доводку металла или поступает в машину непрерывной разливки. Оттуда готовый продукт выходит в виде заготовок-слябов (англ. slab, «плита»).  
+## Description of the production process
+Steel is processed in a metal ladle with a capacity of about 100 tons. In order for the ladle to withstand high temperatures, it is lined with refractory bricks from the inside. Molten steel is poured into a ladle and heated to the desired temperature with graphite electrodes. They are installed in the lid of the bucket.
+Sulfur is removed from the alloy (desulfurization), the chemical composition is corrected by adding impurities, and samples are taken. Steel is alloyed - its composition is changed - by feeding pieces of alloy from a bunker for bulk materials or wire through a special tribe apparatus (English tribe, "mass").
+Before introducing alloying additives for the first time, the temperature of the steel is measured and its chemical analysis is carried out. Then the temperature is raised for several minutes, alloying materials are added and the alloy is purged with an inert gas. Then it is stirred and measured again. This cycle is repeated until the target chemical composition and optimum melting temperature are reached.
+Then the molten steel is sent to finish the metal or enters the continuous casting machine. From there, the finished product comes out in the form of slab blanks (English slab, “slab”).
   
-## Описание данных  
+## Description of data
 
-Данные состоят из файлов, полученных из разных источников:
+The data consists of files obtained from different sources:
 
-- `data_arc.csv` — данные об электродах;
-- `data_bulk.csv` — данные о подаче сыпучих материалов (объём);
-- `data_bulk_time.csv` *—* данные о подаче сыпучих материалов (время);
-- `data_gas.csv` — данные о продувке сплава газом;
-- `data_temp.csv` — результаты измерения температуры;
-- `data_wire.csv` — данные о проволочных материалах (объём);
-- `data_wire_time.csv` — данные о проволочных материалах (время).
+- `data_arc.csv` — electrode data;
+- `data_bulk.csv` - data on the supply of bulk materials (volume);
+- `data_bulk_time.csv` *—* data on the supply of bulk materials (time);
+- `data_gas.csv` — data on alloy gas purge;
+- `data_temp.csv` - temperature measurement results;
+- `data_wire.csv` - data on wire materials (volume);
+- `data_wire_time.csv` - data on wire materials (time).
 
-Во всех файлах столбец `key` содержит номер партии. В файлах может быть несколько строк с одинаковым значением `key`: они соответствуют разным итерациям обработки.
+In all files, the `key` column contains the batch number. There can be several lines in files with the same `key` value: they correspond to different processing iterations.
 
-## Примерный план решения задачи
+## Approximate plan for solving the problem
 
-1. Изучение данных
-2. Исследовательский анализ данных
-3. Подготовка данных. Объединение таблиц
-4. Подготовка признаков
-5. Проверка признаков на мультиколлинеарность
-6. Разбиение датасета на тренировочный и тестовый наборы
-7. Создание модели. Подбор гиперпараметров с помощью кросс-валидации
-8. Тестирование модели
-9. Анализ важности признаков у модели
-10. Проверка модели на вменяемость
+1. Data exploration
+2. Exploratory data analysis
+3. Data preparation. Merging tables
+4. Feature preparation
+5. Checking features for multicollinearity
+6. Splitting the dataset into training and test sets
+7. Model creation. Hyperparameter fitting with cross-validation
+8. Model testing
+9. Analysis of the importance of features in the model
+10. Checking the model for sanity
 
-Проект выполнен в **Jupyter Notebook**, версия сервера блокнотов: 6.4.6.  
-Версия **Python** 3.10.1.  
-В проекте использованы библиотеки:  
+The project is made in **Jupyter Notebook**, Notebook server version: 6.4.6.
+Version **Python** 3.10.1.
+Libraries used in the project:
 * **Pandas**
-* **NumPy** 
-* **Seaborn** 
-* **MatPlotLib** 
-* **statsmodel** 
+* **NumPy**
+* **Seaborne**
+* **MatPlotLib**
+* **statsmodel**
 * **scikit-learn**
-* **модуль IPython**
+* **IPython module**
 * **Light GBM**
