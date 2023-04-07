@@ -8,7 +8,7 @@ Important for the customer:
 
 - quality of prediction;
 - prediction speed;
-- studying time.
+- training time.
  
  
 The key steps of our project will be:
